@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #b2c6ee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 1);
+  padding: 20px;
+}
+
+.card {
+  background-color: #f2c9db;
+  color: #0b0a0a;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.2);
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px;
+  text-align: left;
+}
+
+.card blockquote {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  border-left: 5px solid #61dafb;
+}
+
+.card p {
+  margin: 0;
+}
+
+button {
+  background-color: #efb99c;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #dbe1e4;
+}
+
+.saved-quotes {
+  margin-top: 30px;
+  max-width: 600px;
+  width: 80%;
+}
+
+.saved-quotes h2 {
+  color: #12130d;
+}
+
+.saved-quotes ul {
+  list-style-type: none;
+  padding: 0;
+}
+#Rup{
+ margin-left: 10px;
+}
+
+.saved-quotes li {
+  background-color: #fff;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+.saved-quote blockquote {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  border-left: 4px solid #61dafb;
+}
